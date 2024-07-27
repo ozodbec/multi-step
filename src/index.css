@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    height: 100%;
+    padding: 0;
+    margin:0
+}
+
+body{
+    height: 100%;
+    padding: 0;
+    margin:0
+}
+
+.MyContainer {
+
+    height:93vh; 
+    position: relative;
+    overflow: hidden;
+}
+
+.backgroundIMG{
+    background: url(../public/assets/images/bg-sidebar-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.active {
+    @apply bg-sky-300 text-denim
+}
