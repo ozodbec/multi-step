@@ -42,7 +42,7 @@ function SecondStep() {
         <h4 className="text-[#A2A5B4] font-bold">Yearly</h4>
       </div>
       <div>
-        <button onClick={handleNext} className="absolute bottom-0 right-0 bg-denim px-3 py-4 text-white font-bold rounded-lg">Next Page</button>
+        <button onClick={handleNext} className="absolute bottom-0 right-0 bg-denim px-6 py-4 text-white font-bold rounded-lg">Next Page</button>
         <Link to="/" className="absolute bottom-0 left-0 px-3 py-4 mt-5 text-[#9699AA]">Go back</Link>
       </div>
     </div>

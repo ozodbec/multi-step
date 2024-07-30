@@ -32,7 +32,7 @@ function FirstStep() {
       <FormInput label="Email Address" type="email" placeholder="Enter your email..." name="email" />
       <FormInput label="Phone Number" type="text" placeholder="Enter your phone number..." name="phone" />
       <div>
-        <button className="absolute bottom-0 right-0 bg-denim px-3 py-4 text-white font-bold rounded-lg" type="submit">Next Page</button>
+        <button className="absolute bottom-0 right-0 bg-denim px-6 py-4 text-white font-bold rounded-lg" type="submit">Next Page</button>
       </div>
     </Form>
   );

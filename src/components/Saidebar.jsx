@@ -11,7 +11,7 @@ function Sidebar() {
   ];
 
   return (
-    <div className="w-[22%] MyContainer backgroundIMG p-9 rounded-xl overflow-hidden">
+    <div className="min-w-[22%] MyContainer backgroundIMG p-9 rounded-xl overflow-hidden">
       {links.map(({ text, count, path }) => (
         <div key={count} className="flex items-center gap-5 my-4">
           <span className={`px-4 border text-[#fff] border-sky-200 py-2 rounded-full font-bold ${pathname === path ? "active" : ""}`}>{count}</span>

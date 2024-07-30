@@ -72,16 +72,9 @@ function ThreeStep() {
         </label>
       </div>
 
-      <div className="w-full flex justify-between mt-5">
-        <Link to="/secondstep" className="px-3 py-4 text-[#9699AA] font-[500]">
-          Go back
-        </Link>
-        <button
-          onClick={handleNext}
-          className="bg-denim px-7 py-4 text-white font-bold rounded-lg"
-        >
-          Next Step
-        </button>
+      <div>
+        <button onClick={handleNext} className="absolute bottom-0 right-0 bg-denim px-6 py-4 text-white font-bold rounded-lg">Next Page</button>
+        <Link to="/" className="absolute bottom-0 left-0 px-3 py-4 mt-5 text-[#9699AA]">Go back</Link>
       </div>
     </div>
   );
